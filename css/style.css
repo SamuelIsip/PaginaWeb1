@@ -1,0 +1,318 @@
+body {
+  margin: 0px;
+}
+
+#container {
+  width: 100%;
+}
+.portada {
+  height: 100vh;
+  padding-top: 10px;
+  position: relative;
+  background-image: url("/img/portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*----------------------------------------------*/
+#cabecera {
+  width: 70%;
+  position: fixed;
+  left: 200px;
+  overflow: auto;
+  border-radius: 2px;
+  z-index: 1000;
+  background-color: rgba(0, 138, 230, 0.918);
+}
+
+#logotipo {
+  width: 200px;
+  padding: 15px 0px 15px 5px;
+  float: left;
+}
+
+#cabecera ul {
+  width: 50%;
+  float: right;
+  text-align: end;
+}
+
+#cabecera ul li {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#cabecera ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 49, 139);
+}
+
+#cabecera ul li:first-child a {
+  color: #ffffff;
+}
+
+#cabecera ul li a:hover {
+  color: rgb(109, 120, 141);
+}
+
+/*----------------------------------------------*/
+#saludo {
+  width: 50%;
+  margin: 250px auto 0px;
+  text-align: center;
+}
+
+#saludo input[type="button"] {
+  width: 30%;
+  padding: 8px;
+  background-color: rgba(186, 255, 47, 0.801);
+  color: #ffffff;
+  font-weight: bold;
+  border: 0px;
+}
+
+#saludo h1 {
+  font-size: 65px;
+  -webkit-text-stroke: 0.5px black;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+#saludo input:hover {
+  cursor: pointer;
+  background-color: rgba(146, 216, 42, 0.898);
+}
+
+/*----------------------------------------------*/
+#container .portada + div {
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 116, 194, 0.515),
+    rgb(8, 111, 181)
+  );
+}
+
+.segunda-capa {
+  width: 80%;
+  position: relative;
+  top: -55px;
+  padding: 5% 10% 5%;
+  z-index: 500;
+  overflow: auto;
+  background-color: rgba(23, 119, 182, 0.857);
+}
+
+.segunda-capa > div {
+  width: 50%;
+  float: left;
+  position: relative;
+  margin-top: 50px;
+}
+
+.segunda-capa > div img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.segunda-capa > div > div + div {
+  width: 70%;
+  float: left;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.segunda-capa > div > div + div h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.segunda-capa > div > div + div input {
+  color: #ffffff;
+  padding: 6px 45px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.segunda-capa > div > div + div input:hover {
+  cursor: pointer;
+  background-color: #ffffff93;
+}
+
+.segunda-capa + div {
+  text-align: center;
+  position: relative;
+}
+
+.segunda-capa + div input {
+  position: relative;
+  top: -50px;
+  padding: 8px 40px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0px;
+  z-index: 600;
+  background-color: rgba(186, 255, 47, 0.679);
+}
+
+.segunda-capa + div input:hover {
+  cursor: pointer;
+  background-color: rgba(146, 216, 42, 0.898);
+}
+
+/*----------------------------------------------*/
+
+#tercera-capa {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#tercera-capa h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(51, 182, 199);
+  margin-bottom: 0px;
+}
+
+#tercera-capa p {
+  margin: 0px 0px 50px 0px;
+}
+
+#tercera-capa + div {
+  width: 100%;
+  overflow: auto;
+}
+
+#tercera-capa + div img {
+  width: 25%;
+  height: 260px;
+  display: block;
+  float: left;
+}
+/*----------------------------------------------*/
+
+#cuarta-capa {
+  width: 100%;
+}
+
+#cuarta-capa > div {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  margin: 30px 0px;
+}
+
+#cuarta-capa > div p {
+  width: 70%;
+}
+
+#cuarta-capa > div h2 {
+  font-size: 30px;
+}
+
+#cuarta-capa > div input {
+  padding: 8px 40px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0px;
+  background-color: rgb(148, 211, 22);
+}
+
+#cuarta-capa > div input:hover {
+  cursor: pointer;
+  background-color: rgba(146, 216, 42, 0.898);
+}
+
+/*************/
+#cuarta-capa + div {
+  width: 100%;
+  background-color: rgba(23, 118, 182, 0.932);
+}
+
+#cuarta-capa + div > div {
+  width: 80%;
+  margin: auto;
+}
+
+#cuarta-capa + div > div:first-child {
+  padding: 30px 0px;
+  overflow: auto;
+}
+
+#cuarta-capa + div > div:first-child > div {
+  margin: 0% 3%;
+  float: left;
+}
+
+#cuarta-capa + div > div:first-child > div:nth-child(2) {
+  width: 20%;
+}
+
+#cuarta-capa + div > div:first-child > div:nth-child(3) {
+  width: 30%;
+}
+
+#cuarta-capa + div > div:first-child > div:nth-child(3) ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#cuarta-capa + div h3 {
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+#cuarta-capa + div p,
+h3 {
+  color: #ffffff;
+}
+
+#mapa {
+  width: 30%;
+}
+
+#mapa img {
+  width: 100%;
+  height: 175px;
+}
+
+#cuarta-capa + div > div:last-child {
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+#cuarta-capa + div > div:last-child > div {
+  width: 45%;
+  margin-left: 5%;
+  float: left;
+}
+
+#cuarta-capa + div > div:last-child > div:first-child p {
+  margin-top: 0px;
+}
+
+#logotipo2 {
+  width: 200px;
+}
+
+#cuarta-capa + div > div:last-child > div:last-child input {
+  padding: 8px 40px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0px;
+  background-color: rgb(148, 211, 22);
+}
+
+#cuarta-capa + div > div:last-child > div:last-child input:hover {
+  cursor: pointer;
+  background-color: rgba(146, 216, 42, 0.898);
+}
