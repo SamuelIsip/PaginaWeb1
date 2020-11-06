@@ -9,7 +9,7 @@ body {
   height: 100vh;
   padding-top: 10px;
   position: relative;
-  background-image: url("/img/portada.jpg");
+  background-image: url("../img/portada.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
